@@ -13,11 +13,9 @@
     <output url="file://$MODULE_DIR$/bin" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/data" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/html" type="java-resource" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8 (2)" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="liberica-full-1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="javax.json-1.0.4.jar">
@@ -28,17 +26,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="openjfx.javafx.base" level="project" />
-    <orderEntry type="library" name="openjfx.javafx.controls" level="project" />
-    <orderEntry type="library" name="openjfx.javafx.web" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/jfxrt.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="javafx-swt" level="project" />
   </component>
 </module>
